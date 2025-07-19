@@ -13,5 +13,6 @@ int main(){
     cin>>a;
     cin>>b;
     int sum = addition(a,b);
+    cout<<"this is sum"<<sum;
     cout<<sum;
 }
