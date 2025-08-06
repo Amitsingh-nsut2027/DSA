@@ -156,13 +156,13 @@ int main() {
 
 
     // //creation
-    char arr[100];
+    // char arr[100];
 
-    cout << "Enter your name" << endl;
-    //input
-    // cin >> arr;
-    cin.getline(arr, 100, '.');
-    cout<<arr<<endl;
+    // cout << "Enter your name" << endl;
+    // //input
+    // // cin >> arr;
+    // cin.getline(arr, 100, '.');
+    // cout<<arr<<endl;
     // //print
     // cout << "Your name is: " << arr << endl;
     // cout << arr[0] << "-> " << (int)arr[0] << endl;
@@ -172,11 +172,34 @@ int main() {
     // cout << arr[4] << "-> " << (int)arr[4] << endl;
     //cout << arr[5] <<"-> " << (int)arr[5] << endl;
 
+       
+
+        //cout<<"Enter the size of char array you want and when complete plase click tab"<< endl;
+        // char arr[100];
+        // cin.getline(arr,100,'\n');
+
+        // int length = getLength(arr,100);
+        // cout<<length<<endl;
+        // cout<<"Enter the word"<<endl;
+        // char arr[100];
+        // cin.getline(arr,100,'\t');
+
+        // int len = getLength(arr,100);
+
+        // for (int i = 0; i < len; i++)
+        // {
+        //     if (arr[i] == '@')
+        //     {
+        //         arr[i] = ' ';
+        //     }
+            
+        // }
+
+        // cout<<arr<<endl;
+        
+
+        
 
 
-
-
-
-
-    return 0;
+    
 }
