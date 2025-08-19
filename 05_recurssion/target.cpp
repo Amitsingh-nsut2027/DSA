@@ -12,8 +12,8 @@ bool target(int arr[], int size, int search,int index){
         return true;
     }
     index++;
-    target(arr,size,search,index);
-
+    int ans = target(arr,size,search,index);
+    return ans;
 
 }
 
@@ -21,7 +21,7 @@ bool target(int arr[], int size, int search,int index){
 int main(){
     int arr[] = { 10,20,30,40,50,60};
     int n = 6;
-    int search = 90;
+    int search = 10;
     int index = 0;
     cout<<target(arr,n,search,index);
 
